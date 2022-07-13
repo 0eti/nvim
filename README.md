@@ -1,1 +1,1 @@
-# NVIM Configuration
+# NeoVim Configuration
