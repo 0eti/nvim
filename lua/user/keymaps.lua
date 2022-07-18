@@ -7,8 +7,9 @@ keymap("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
--- Lexplore quick access
-keymap("n", "<Leader>e", ":Lexplore <CR>", opts)
+-- File Explorer quick access
+-- keymap("n", "<Leader>e", ":Lexplore <CR>", opts)
+keymap("n", "<Leader>e", ":NvimTreeToggle <CR>", opts)
 
 -- Buffer Navigation
 keymap("n", "<S-h>", ":bprevious <CR>", opts)

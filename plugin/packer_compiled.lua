@@ -74,6 +74,11 @@ _G.packer_plugins = {
     path = "/Users/elim-mbp-01/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
     url = "https://github.com/EdenEast/nightfox.nvim"
   },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/Users/elim-mbp-01/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/kyazdani42/nvim-tree.lua"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/elim-mbp-01/.local/share/nvim/site/pack/packer/start/packer.nvim",
