@@ -2,6 +2,7 @@ local options = {
   clipboard = "unnamedplus", -- Vim synced with system clipboard 
   cursorline = true, -- Underlines current line
   mouse = "a", -- Enable mouse in "all" modes
+  termguicolors = true, -- More vivid colors & changes cursorline to a highlight
   wrap = true, -- Wraps overflowed lines
 
   -- Number Lines
